@@ -1,14 +1,15 @@
 {
-    "name": "pxt-esp8266-at",
-    "version": "0.0.0",
-    "description": "",
+    "name": "pxt-at-command",
+    "version": "1.0.0",
+    "description": "UART AT command",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+		"_locales/zh/pxt-esp8266-at-strings.json"
     ],
     "testFiles": [
         "test.ts"

@@ -5,8 +5,8 @@
  */
 
 
-//% weight=100 color=#0fbc11 icon=""
-namespace custom {
+//% weight=100 color=#0fbc11 icon="" block="ATcommand"
+namespace ATcommand {
     /**
      * TODO: 在此处描述您的函数
      * @param s 在此处描述参数, eg: "Hello"

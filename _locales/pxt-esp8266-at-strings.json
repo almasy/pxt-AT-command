@@ -1,0 +1,5 @@
+{
+  "AT.initUART|block": "set UART |RX %tx|TX %rx|Baud rate %baudrate",
+  "AT.sendAT|block": "Send AT command %s to UART",
+  "{id:category}AT": "AT"
+}

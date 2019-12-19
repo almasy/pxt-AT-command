@@ -1,4 +1,4 @@
-//% weight=100 color=#0fbc11 icon="\uf1eb" block="ATcommand"
+//% weight=100 color=#0fbc11 icon="\uf1eb" block="WIFI_AT"
 namespace WIFI_AT {
     //% block="Send AT command %s to WIFI module"
     export function foo(s: string): void {

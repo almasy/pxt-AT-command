@@ -14,4 +14,11 @@ namespace AT {
     export function sendAT(s: string): void {
         serial.writeString(s + "\u000D" + "\u000A")
     }
+    //% block="Send 0x1A to UART"
+    export function foo(): void {
+        let buf = pins.createBuffer(1);
+        buf[0] = 0x1A;
+        serial.writeBuffer(buf)
+    }
 }
+

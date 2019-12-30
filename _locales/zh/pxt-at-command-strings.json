@@ -1,4 +1,5 @@
 {
+  "AT.foo|block": "发送 0x1A 到串口",
   "AT.initUART|block": "设置串口引脚 |RX %tx|TX %rx|波特率 %baudrate",
   "AT.sendAT|block": "发送AT指令 %s 到串口",
   "{id:category}AT": "AT指令"
